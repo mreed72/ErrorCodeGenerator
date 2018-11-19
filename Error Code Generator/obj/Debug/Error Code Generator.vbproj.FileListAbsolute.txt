@@ -1,0 +1,11 @@
+C:\GITHUB REPOS\ErrorCodeGenerator\Error Code Generator\bin\Debug\Error Code Generator.exe.config
+C:\GITHUB REPOS\ErrorCodeGenerator\Error Code Generator\bin\Debug\Error Code Generator.exe
+C:\GITHUB REPOS\ErrorCodeGenerator\Error Code Generator\bin\Debug\Error Code Generator.pdb
+C:\GITHUB REPOS\ErrorCodeGenerator\Error Code Generator\bin\Debug\Error Code Generator.xml
+C:\GITHUB REPOS\ErrorCodeGenerator\Error Code Generator\obj\Debug\Error_Code_Generator.Form1.resources
+C:\GITHUB REPOS\ErrorCodeGenerator\Error Code Generator\obj\Debug\Error_Code_Generator.Resources.resources
+C:\GITHUB REPOS\ErrorCodeGenerator\Error Code Generator\obj\Debug\Error Code Generator.vbproj.GenerateResource.cache
+C:\GITHUB REPOS\ErrorCodeGenerator\Error Code Generator\obj\Debug\Error Code Generator.vbproj.CoreCompileInputs.cache
+C:\GITHUB REPOS\ErrorCodeGenerator\Error Code Generator\obj\Debug\Error Code Generator.exe
+C:\GITHUB REPOS\ErrorCodeGenerator\Error Code Generator\obj\Debug\Error Code Generator.xml
+C:\GITHUB REPOS\ErrorCodeGenerator\Error Code Generator\obj\Debug\Error Code Generator.pdb

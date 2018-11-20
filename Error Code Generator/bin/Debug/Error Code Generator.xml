@@ -27,6 +27,11 @@ Error Code Generator
   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
 </summary>
 </member>
+<member name="P:Error_Code_Generator.My.Resources.Resources.x1600571">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:Error_Code_Generator.My.Resources.Resources.x320733">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.

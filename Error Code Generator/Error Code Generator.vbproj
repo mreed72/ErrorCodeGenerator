@@ -123,6 +123,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="cXY0160.ico" />
+    <None Include="Resources\x1600571.PNG" />
     <None Include="Resources\x320733.png" />
     <None Include="Resources\cXY0160.ico" />
   </ItemGroup>

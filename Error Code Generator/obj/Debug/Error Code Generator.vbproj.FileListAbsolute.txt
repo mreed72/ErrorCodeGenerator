@@ -9,3 +9,4 @@ C:\GITHUB REPOS\ErrorCodeGenerator\Error Code Generator\obj\Debug\Error Code Gen
 C:\GITHUB REPOS\ErrorCodeGenerator\Error Code Generator\obj\Debug\Error Code Generator.exe
 C:\GITHUB REPOS\ErrorCodeGenerator\Error Code Generator\obj\Debug\Error Code Generator.xml
 C:\GITHUB REPOS\ErrorCodeGenerator\Error Code Generator\obj\Debug\Error Code Generator.pdb
+C:\GITHUB REPOS\ErrorCodeGenerator\Error Code Generator\obj\Debug\Error Code Generator.vbprojAssemblyReference.cache

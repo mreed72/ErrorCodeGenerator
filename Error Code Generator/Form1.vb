@@ -33,8 +33,12 @@ Public Class Form1
                 Return "3X"
             Case 16 To 20
                 Return "4X"
-            Case > 20
+            Case 21 To 25
                 Return "5X"
+            Case 26 To 30
+                Return "6X"
+            Case Else
+                Return "9X"
         End Select
     End Function
 
@@ -64,7 +68,7 @@ Public Class Form1
 
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        CoDec = txCodeDec.Text & "(" & setday() & Grs(6) & ")"
+        CoDec = txCodeDec.Text & "(" & Chr(34) & setday() & Grs(6) & Chr(34) & ", " & "ex.message)"
 
         lbx.Items.Add(CoDec)
         Clipboard.SetText(CoDec)

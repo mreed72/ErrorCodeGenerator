@@ -10,3 +10,7 @@ C:\GITHUB REPOS\ErrorCodeGenerator\Error Code Generator\obj\Release\Error Code G
 C:\GITHUB REPOS\ErrorCodeGenerator\Error Code Generator\obj\Release\Error Code Generator.exe
 C:\GITHUB REPOS\ErrorCodeGenerator\Error Code Generator\obj\Release\Error Code Generator.xml
 C:\GITHUB REPOS\ErrorCodeGenerator\Error Code Generator\obj\Release\Error Code Generator.pdb
+C:\GITHUB REPOS\ErrorCodeGenerator\Error Code Generator\bin\Release\Error Code Generator.exe.manifest
+C:\GITHUB REPOS\ErrorCodeGenerator\Error Code Generator\bin\Release\Error Code Generator.application
+C:\GITHUB REPOS\ErrorCodeGenerator\Error Code Generator\obj\Release\Error Code Generator.exe.manifest
+C:\GITHUB REPOS\ErrorCodeGenerator\Error Code Generator\obj\Release\Error Code Generator.application

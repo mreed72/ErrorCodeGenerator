@@ -1,7 +1,5 @@
 ﻿' **** SIMONCODER SOFTWARE ******** © 2018 Scott Reed **** mreed1972@gmail.com
 
-
-
 Public Class Form1
     Private xcode As String
     Private CoDec As String
@@ -25,18 +23,14 @@ Public Class Form1
 
     Function setday()
         Select Case Date.Now.Day
-            Case 1 To 5
+            Case 1 To 10
                 Return "1X"
-            Case 6 To 10
+            Case 11 To 20
                 Return "2X"
-            Case 11 To 15
-                Return "3X"
-            Case 16 To 20
-                Return "4X"
             Case 21 To 25
-                Return "5X"
+                Return "3X"
             Case 26 To 30
-                Return "6X"
+                Return "4X"
             Case Else
                 Return "9X"
         End Select
@@ -66,9 +60,8 @@ Public Class Form1
         itxt.Clear()
     End Function
 
-
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        CoDec = txCodeDec.Text & "(" & Chr(34) & setday() & Grs(6) & Chr(34) & ", " & "ex.message)"
+        CoDec = txCodeDec.Text & "(" & Chr(34) & setday() & Grs(5) & Chr(34) & ", " & "ex.message)"
 
         lbx.Items.Add(CoDec)
         Clipboard.SetText(CoDec)
@@ -85,4 +78,5 @@ Public Class Form1
         Process.Start(clog)
 
     End Sub
+
 End Class

@@ -25,7 +25,7 @@
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
     <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
-    <ApplicationRevision>4</ApplicationRevision>
+    <ApplicationRevision>5</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
@@ -65,7 +65,7 @@
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>cXY0160.ico</ApplicationIcon>
+    <ApplicationIcon>ico0057.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup>
     <ManifestCertificateThumbprint>6FFA3CC4D67104835860F2230519AADA7990247F</ManifestCertificateThumbprint>
@@ -154,6 +154,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="cXY0160.ico" />
+    <Content Include="ico0057.ico" />
     <None Include="Resources\17041.png" />
     <None Include="Resources\x1600571.PNG" />
     <None Include="Resources\x320733.png" />

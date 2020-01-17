@@ -13,3 +13,4 @@ C:\GITHUB REPOS\ErrorCodeGenerator\Error Code Generator\bin\Release\Error Code G
 C:\GITHUB REPOS\ErrorCodeGenerator\Error Code Generator\bin\Release\Error Code Generator.application
 C:\GITHUB REPOS\ErrorCodeGenerator\Error Code Generator\obj\Release\Error Code Generator.exe.manifest
 C:\GITHUB REPOS\ErrorCodeGenerator\Error Code Generator\obj\Release\Error Code Generator.application
+C:\GITHUB REPOS\ErrorCodeGenerator\Error Code Generator\obj\Release\Error_Code_Generator.frmAbout.resources

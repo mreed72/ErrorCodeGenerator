@@ -22,6 +22,7 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.txCodeDec = New System.Windows.Forms.TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
@@ -30,7 +31,9 @@ Partial Class Form1
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Label2 = New System.Windows.Forms.Label()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Panel1.SuspendLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Panel1
@@ -64,7 +67,7 @@ Partial Class Form1
         '
         Me.Button1.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup
-        Me.Button1.Image = Global.Error_Code_Generator.My.Resources.Resources.x320733
+        Me.Button1.Image = Global.Error_Code_Generator.My.Resources.Resources.x480087
         Me.Button1.Location = New System.Drawing.Point(199, 6)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(63, 49)
@@ -86,9 +89,9 @@ Partial Class Form1
         Me.Button2.BackColor = System.Drawing.Color.FromArgb(CType(CType(247, Byte), Integer), CType(CType(163, Byte), Integer), CType(CType(163, Byte), Integer))
         Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.Button2.Image = Global.Error_Code_Generator.My.Resources.Resources._17041
-        Me.Button2.Location = New System.Drawing.Point(232, 311)
+        Me.Button2.Location = New System.Drawing.Point(237, 311)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(30, 23)
+        Me.Button2.Size = New System.Drawing.Size(25, 23)
         Me.Button2.TabIndex = 3
         Me.Button2.UseVisualStyleBackColor = False
         '
@@ -97,7 +100,7 @@ Partial Class Form1
         Me.Button3.Image = Global.Error_Code_Generator.My.Resources.Resources.x1600571
         Me.Button3.Location = New System.Drawing.Point(12, 311)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(31, 23)
+        Me.Button3.Size = New System.Drawing.Size(28, 23)
         Me.Button3.TabIndex = 4
         Me.Button3.UseVisualStyleBackColor = True
         '
@@ -105,18 +108,29 @@ Partial Class Form1
         '
         Me.Label2.AutoSize = True
         Me.Label2.ForeColor = System.Drawing.SystemColors.ButtonShadow
-        Me.Label2.Location = New System.Drawing.Point(53, 316)
+        Me.Label2.Location = New System.Drawing.Point(42, 316)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(167, 13)
         Me.Label2.TabIndex = 5
         Me.Label2.Text = "ELOG(""6X451TUK"", ex.message)"
         '
+        'PictureBox1
+        '
+        Me.PictureBox1.Image = Global.Error_Code_Generator.My.Resources.Resources.SMG1795
+        Me.PictureBox1.Location = New System.Drawing.Point(215, 316)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(16, 16)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
+        Me.PictureBox1.TabIndex = 6
+        Me.PictureBox1.TabStop = False
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(271, 340)
+        Me.ClientSize = New System.Drawing.Size(271, 341)
         Me.ControlBox = False
+        Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
@@ -125,11 +139,13 @@ Partial Class Form1
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Panel1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Form1"
         Me.Text = "Error Code Generator"
         Me.TopMost = True
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -143,4 +159,5 @@ Partial Class Form1
     Friend WithEvents Button2 As Button
     Friend WithEvents Button3 As Button
     Friend WithEvents Label2 As Label
+    Friend WithEvents PictureBox1 As PictureBox
 End Class

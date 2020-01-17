@@ -4,7 +4,7 @@
   <description asmv2:iconFile="ico0057.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="Error Code Generator" version="1.0.0.5" language="neutral" processorArchitecture="msil" />
+    <assemblyIdentity name="Error Code Generator" version="1.0.0.6" language="neutral" processorArchitecture="msil" />
     <commandLine file="Error Code Generator.exe" parameters="" />
   </entryPoint>
   <trustInfo>
@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Error Code Generator.exe" size="254360">
-      <assemblyIdentity name="Error Code Generator" version="1.0.0.5" language="neutral" processorArchitecture="msil" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Error Code Generator.exe" size="429464">
+      <assemblyIdentity name="Error Code Generator" version="1.0.0.6" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>oICnhDfcdZcUs877ROKbyRKWOiWFn1mQ7ShCB5EuHvM=</dsig:DigestValue>
+        <dsig:DigestValue>9RStrsf8DYgMf+Uvh1Zwxmbo6o1VivRLPT1UB5HREpY=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

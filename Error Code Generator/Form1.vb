@@ -6,7 +6,6 @@ Public Class Form1
     Private clog As String
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        Icon = My.Resources.cXY0160
 
         'Session Log
         Try
@@ -76,6 +75,11 @@ Public Class Form1
 
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
         Process.Start(clog)
+
+    End Sub
+
+    Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles PictureBox1.Click
+        frmAbout.Show()
 
     End Sub
 

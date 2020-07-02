@@ -1,4 +1,4 @@
-﻿' **** SIMONCODER SOFTWARE ******** © 2018 Scott Reed **** mreed1972@gmail.com
+﻿' **** SIMONCODER SOFTWARE ******** © 2018-2020 Scott Reed **** mreed1972@gmail.com
 
 Public Class Form1
     Private xcode As String
@@ -22,14 +22,18 @@ Public Class Form1
 
     Function setday()
         Select Case Date.Now.Day
-            Case 1 To 10
+            Case 1 To 5
                 Return "1X"
-            Case 11 To 20
+            Case 6 To 10
                 Return "2X"
-            Case 21 To 25
+            Case 11 To 15
                 Return "3X"
-            Case 26 To 30
+            Case 16 To 20
                 Return "4X"
+            Case 21 To 25
+                Return "5X"
+            Case 26 To 30
+                Return "6X"
             Case Else
                 Return "9X"
         End Select

@@ -59,9 +59,9 @@ Partial Class Form1
         Me.Label1.AutoSize = True
         Me.Label1.Location = New System.Drawing.Point(9, 6)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(74, 13)
+        Me.Label1.Size = New System.Drawing.Size(78, 13)
         Me.Label1.TabIndex = 1
-        Me.Label1.Text = "Function Dec:"
+        Me.Label1.Text = "Function Ident:"
         '
         'Button1
         '

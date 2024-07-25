@@ -1,11 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27703.2042
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Error Code Generator", "Error Code Generator.vbproj", "{30461D2A-9A58-4AF9-BAE0-931A1EE73E77}"
-EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup1", "..\Setup1\Setup1.vdproj", "{58A55303-749C-4862-AD53-ABA9540637ED}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,8 +15,6 @@ Global
 		{30461D2A-9A58-4AF9-BAE0-931A1EE73E77}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{30461D2A-9A58-4AF9-BAE0-931A1EE73E77}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{30461D2A-9A58-4AF9-BAE0-931A1EE73E77}.Release|Any CPU.Build.0 = Release|Any CPU
-		{58A55303-749C-4862-AD53-ABA9540637ED}.Debug|Any CPU.ActiveCfg = Debug
-		{58A55303-749C-4862-AD53-ABA9540637ED}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

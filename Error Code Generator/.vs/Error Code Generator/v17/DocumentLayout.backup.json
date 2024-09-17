@@ -9,14 +9,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{30461D2A-9A58-4AF9-BAE0-931A1EE73E77}|Error Code Generator.vbproj|c:\\users\\mreed\\onedrive - state of arkansas\\documents\\github\\errorcodegenerator\\error code generator\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{30461D2A-9A58-4AF9-BAE0-931A1EE73E77}|Error Code Generator.vbproj|solutionrelative:form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30461D2A-9A58-4AF9-BAE0-931A1EE73E77}|Error Code Generator.vbproj|c:\\users\\mreed\\onedrive - state of arkansas\\documents\\github\\errorcodegenerator\\error code generator\\frmabout.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{30461D2A-9A58-4AF9-BAE0-931A1EE73E77}|Error Code Generator.vbproj|solutionrelative:frmabout.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30461D2A-9A58-4AF9-BAE0-931A1EE73E77}|Error Code Generator.vbproj|c:\\users\\mreed\\onedrive - state of arkansas\\documents\\github\\errorcodegenerator\\error code generator\\frmabout.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{30461D2A-9A58-4AF9-BAE0-931A1EE73E77}|Error Code Generator.vbproj|solutionrelative:frmabout.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,36 +18,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "frmAbout.vb",
-              "DocumentMoniker": "C:\\Users\\mreed\\OneDrive - State of Arkansas\\Documents\\GitHub\\ErrorCodeGenerator\\Error Code Generator\\frmAbout.vb",
-              "RelativeDocumentMoniker": "frmAbout.vb",
-              "ToolTip": "C:\\Users\\mreed\\OneDrive - State of Arkansas\\Documents\\GitHub\\ErrorCodeGenerator\\Error Code Generator\\frmAbout.vb",
-              "RelativeToolTip": "frmAbout.vb",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-09-17T20:53:05.403Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "frmAbout.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\mreed\\OneDrive - State of Arkansas\\Documents\\GitHub\\ErrorCodeGenerator\\Error Code Generator\\frmAbout.vb",
-              "RelativeDocumentMoniker": "frmAbout.vb",
-              "ToolTip": "C:\\Users\\mreed\\OneDrive - State of Arkansas\\Documents\\GitHub\\ErrorCodeGenerator\\Error Code Generator\\frmAbout.vb [Design]",
-              "RelativeToolTip": "frmAbout.vb [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-09-17T20:53:02.389Z",
-              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
@@ -65,7 +32,7 @@
               "RelativeDocumentMoniker": "Form1.vb",
               "ToolTip": "C:\\Users\\mreed\\OneDrive - State of Arkansas\\Documents\\GitHub\\ErrorCodeGenerator\\Error Code Generator\\Form1.vb",
               "RelativeToolTip": "Form1.vb",
-              "ViewState": "AgIAADUAAAAAAAAAAAAgwFsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2024-07-25T19:43:37.902Z",
               "EditorCaption": ""

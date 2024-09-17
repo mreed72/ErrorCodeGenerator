@@ -10,6 +10,7 @@
             Dim xc As String = "mailto:mreed1972@gmail.com"
             Diagnostics.Process.Start(xc)
         Catch ex As Exception
+
         End Try
 
     End Sub

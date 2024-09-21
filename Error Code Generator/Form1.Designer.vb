@@ -32,6 +32,7 @@ Partial Class Form1
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.b3 = New System.Windows.Forms.Label()
         Me.Panel1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -76,12 +77,13 @@ Partial Class Form1
         '
         'lbx
         '
-        Me.lbx.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lbx.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.lbx.Font = New System.Drawing.Font("Arial", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbx.FormattingEnabled = True
-        Me.lbx.ItemHeight = 16
+        Me.lbx.ItemHeight = 17
         Me.lbx.Location = New System.Drawing.Point(12, 61)
         Me.lbx.Name = "lbx"
-        Me.lbx.Size = New System.Drawing.Size(250, 244)
+        Me.lbx.Size = New System.Drawing.Size(250, 240)
         Me.lbx.TabIndex = 2
         '
         'Button2
@@ -124,12 +126,23 @@ Partial Class Form1
         Me.PictureBox1.TabIndex = 6
         Me.PictureBox1.TabStop = False
         '
+        'b3
+        '
+        Me.b3.AutoSize = True
+        Me.b3.ForeColor = System.Drawing.SystemColors.ControlDarkDark
+        Me.b3.Location = New System.Drawing.Point(93, 6)
+        Me.b3.Name = "b3"
+        Me.b3.Size = New System.Drawing.Size(13, 13)
+        Me.b3.TabIndex = 7
+        Me.b3.Text = "0"
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(271, 341)
+        Me.ClientSize = New System.Drawing.Size(271, 344)
         Me.ControlBox = False
+        Me.Controls.Add(Me.b3)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Button3)
@@ -160,4 +173,5 @@ Partial Class Form1
     Friend WithEvents Button3 As Button
     Friend WithEvents Label2 As Label
     Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents b3 As Label
 End Class

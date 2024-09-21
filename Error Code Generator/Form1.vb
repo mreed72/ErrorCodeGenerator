@@ -67,6 +67,8 @@ Public Class Form1
         CoDec = txCodeDec.Text & "(" & Chr(34) & setday() & Grs(5) & Chr(34) & ", " & "ex.message)"
 
         lbx.Items.Add(CoDec)
+        b3.Text = lbx.Items.Count.ToString & " items."
+
         Clipboard.SetText(CoDec)
         ELOG(CoDec)
 

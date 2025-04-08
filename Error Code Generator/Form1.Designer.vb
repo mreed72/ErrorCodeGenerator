@@ -60,9 +60,9 @@ Partial Class Form1
         Me.Label1.AutoSize = True
         Me.Label1.Location = New System.Drawing.Point(9, 6)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(78, 13)
+        Me.Label1.Size = New System.Drawing.Size(63, 13)
         Me.Label1.TabIndex = 1
-        Me.Label1.Text = "Function Ident:"
+        Me.Label1.Text = "Function Id:"
         '
         'Button1
         '
@@ -130,7 +130,7 @@ Partial Class Form1
         '
         Me.b3.AutoSize = True
         Me.b3.ForeColor = System.Drawing.SystemColors.ControlDarkDark
-        Me.b3.Location = New System.Drawing.Point(93, 6)
+        Me.b3.Location = New System.Drawing.Point(78, 6)
         Me.b3.Name = "b3"
         Me.b3.Size = New System.Drawing.Size(13, 13)
         Me.b3.TabIndex = 7

@@ -1,15 +1,13 @@
-﻿' **** SIMONCODER SOFTWARE ******** © 2018-2024 Scott Reed **** mreed1972@gmail.com
+﻿' **** SIMONCODER SOFTWARE ******** © 2018-2025 Scott Reed **** mreed1972@gmail.com
 
 Public Class Form1
-    Private xcode As String
     Private CoDec As String
-    Private clog As String
+    Private clog As String = "C:\Mighty Apps\ECGlog.txt"
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
         'Session Log
         Try
-            clog = My.Application.Info.DirectoryPath & "\slog.txt"
             Dim f As Boolean
             f = My.Computer.FileSystem.FileExists(clog)
             If f = False Then
@@ -20,47 +18,32 @@ Public Class Form1
 
     End Sub
 
-    Function setday()
-        Select Case Date.Now.Day
-            Case 1 To 5
-                Return "1X"
-            Case 6 To 10
-                Return "2X"
-            Case 11 To 15
-                Return "3X"
-            Case 16 To 20
-                Return "4X"
-            Case 21 To 25
-                Return "5X"
-            Case 26 To 30
-                Return "6X"
-            Case Else
-                Return "9X"
-        End Select
+    Function setday() As String
+        Dim dayGroup As Integer = (Date.Now.Day - 1) \ 5 + 1
+        If dayGroup > 6 Then dayGroup = 9
+        Return dayGroup & "X"
     End Function
 
     Public Function Grs(ByRef length As Integer) As String
         Try
-            Randomize()
-            Dim ac As String
-            ac = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
-            Dim i As Integer
-            For i = 1 To length
-                Grs = Grs & Mid(ac, Int(Rnd() * Len(ac) + 1), 1)
+            Dim sb As New System.Text.StringBuilder()
+            Dim ac As String = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+            Dim rnd As New Random()
+            For i As Integer = 1 To length
+                sb.Append(ac(rnd.Next(0, ac.Length)))
             Next
+            Return sb.ToString()
         Catch ex As Exception
         End Try
     End Function
 
     Function ELOG(msg As String)
-        Dim myfile As String = clog
-        Dim itxt As New TextBox
-        If IO.File.Exists(myfile) Then
-            itxt.Text = IO.File.ReadAllText(myfile)
-        End If
-        Dim vt As String = vbCrLf & Date.Now & " ===== " & msg & itxt.Text
-        My.Computer.FileSystem.WriteAllText(myfile, vt, False)
-        itxt.Clear()
+        Try
+            Dim vt As String = vbCrLf & Date.Now & " ===== " & msg
+            My.Computer.FileSystem.WriteAllText(clog, vt & vbCrLf & My.Computer.FileSystem.ReadAllText(clog), False)
+        Catch ex As Exception
+            ' Handle exception if needed
+        End Try
     End Function
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
@@ -69,6 +52,9 @@ Public Class Form1
         lbx.Items.Add(CoDec)
         b3.Text = lbx.Items.Count.ToString & " items."
 
+        If Clipboard.ContainsText() Then
+            Clipboard.Clear()
+        End If
         Clipboard.SetText(CoDec)
         ELOG(CoDec)
 
